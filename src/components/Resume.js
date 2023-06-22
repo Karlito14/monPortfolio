@@ -12,7 +12,7 @@ const Resume = () => {
                         <section>
                             <div className="d-flex justify-content-between mb-4 flex-direction">
                                 <h3 className="text-primary fw-bolder mb-0 mt-4">Expériences</h3>
-                                <a className="btn btn-primary px-4 py-3" href="#!">
+                                <a className="btn btn-primary px-4 py-3" href="./media/CV_Carlos_Leiroz.pdf" target='_blank'>
                                     <div className="d-inline-block bi bi-download me-2"></div>
                                     Télécharger mon CV
                                 </a>
