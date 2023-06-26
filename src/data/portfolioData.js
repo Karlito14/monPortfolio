@@ -49,13 +49,4 @@ export const portfolioData = [
     info: 'Réalisation d\'un site de location immobilière en React. Initialiser une application avec Create React App, configurer la navigation entre les pages de l\'application avec React Router, développer des éléments de l\'interface d\'un site web grâce à des composants React.',
     picture: '../../media/kasa.jpg'
   },
-  {
-    id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fa-brands fa-js','fa-brands fa-react','fa-brands fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
-  },
 ]
