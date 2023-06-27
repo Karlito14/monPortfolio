@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: 'Portfolio Architecte d\'Intérieur',
-    languages: ['javascript'],
+    language: 'javascript',
     languagesIcons: ['fa-brands fa-js'],
     source: 'https://karlito14.github.io/portfolioArchitecte/',
     git: 'https://github.com/Karlito14/portfolioArchitecte.git',
@@ -12,7 +12,7 @@ export const portfolioData = [
   {
     id: 2,
     name: 'Jeu Snake',
-    languages: ['javascript'],
+    language: 'javascript',
     languagesIcons: ['fa-brands fa-js'],
     source: 'https://karlito14.github.io/jeuSnake/',
     git: 'https://github.com/Karlito14/jeuSnake.git',
@@ -22,7 +22,7 @@ export const portfolioData = [
   {
     id: 3,
     name: 'Liste de Courses',
-    languages: ['javascript'],
+    language: 'javascript',
     languagesIcons: ['fa-brands fa-js'],
     source: 'https://karlito14.github.io/ListeCourses/',
     git: 'https://github.com/Karlito14/ListeCourses.git',
@@ -32,7 +32,7 @@ export const portfolioData = [
   {
     id: 4,
     name: 'Booki',
-    languages: ['html', 'css'],
+    language: 'html',
     languagesIcons: ["fa-brands fa-css3-alt",  "fa-brands fa-html5"],
     source: 'https://karlito14.github.io/projetBooki/',
     git : 'https://github.com/Karlito14/projetBooki.git',
@@ -42,7 +42,7 @@ export const portfolioData = [
   {
     id: 5,
     name: 'Kasa',
-    languages: ['javascript','react', 'css'],
+    language: 'react',
     languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
     source: 'http://www.github.com',
     git: 'https://github.com/Karlito14/Kasa.git',
