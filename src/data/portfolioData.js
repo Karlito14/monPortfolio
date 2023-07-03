@@ -4,7 +4,6 @@ export const portfolioData = [
     name: 'Portfolio Architecte d\'Intérieur',
     language: 'javascript',
     languagesIcons: ['fa-brands fa-js'],
-    source: 'https://karlito14.github.io/portfolioArchitecte/',
     git: 'https://github.com/Karlito14/portfolioArchitecte.git',
     info: 'Réalisation d\'un portoflio d\'une architecte d\'intérieur. Récupération les données utilisateurs via un formulaire, manipulation du DOM, gérer les événements utilisateurs.',
     picture: '../../media/portfolioArchitecte.jpg',
@@ -44,9 +43,17 @@ export const portfolioData = [
     name: 'Kasa',
     language: 'react',
     languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
-    source: 'http://www.github.com',
     git: 'https://github.com/Karlito14/Kasa.git',
     info: 'Réalisation d\'un site de location immobilière en React. Initialiser une application avec Create React App, configurer la navigation entre les pages de l\'application avec React Router, développer des éléments de l\'interface d\'un site web grâce à des composants React.',
+    picture: '../../media/kasa.jpg'
+  },
+  {
+    id: 6,
+    name: 'TV Show Adviser',
+    language: 'react',
+    languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
+    git: 'https://github.com/Karlito14/tvShowAdviser.git',
+    info: 'Réalisation d\'une application de séries TV. La série la plus populaire du moment s\'affiche lors de l\'ouverture de l\'application. Puis la personne recherche la série souhaitée et des recommandations s\'affichent selon la série choisie.',
     picture: '../../media/kasa.jpg'
   },
 ]

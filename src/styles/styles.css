@@ -566,6 +566,11 @@ progress {
   list-style: none;
 }
 
+.list-project{
+  display: flex;
+  flex-direction: column;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -651,6 +656,12 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .list-project{
+    flex-direction: row;
+  }
+  .item-project{
+    margin-right: 40px;
+  }
   .title{
     font-size: 1.2rem;
   }
@@ -5933,14 +5944,10 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.div-img-project::before{
-    content: " ";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%);
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-project{
@@ -6279,6 +6286,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .contact-section{
+    height: 70vh;
+  }
   .offcanvas-md {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -8311,12 +8321,12 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #4f5357 !important;
 }
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .text-white-50 {

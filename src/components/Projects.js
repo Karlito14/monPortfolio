@@ -26,19 +26,19 @@ const Projects = () => {
         <section className="py-5">
             <div className="container px-5 mb-5">
                 <div className="text-center mb-5">
-                    <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Mes projets</span></h1>
+                    <h2 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Mes projets</span></h2>
                 </div>
-                <ul className="nav justify-content-center mb-3">
-                    <li className="nav-item me-5">
+                <ul className="nav justify-content-center mb-3 list-project">
+                    <li className="nav-item text-center item-project">
                         <p role="button" className="nav-link border border-primary rounded-pill" id="tous" onClick={onClick}>Tous</p>
                     </li>
-                    <li className="nav-item me-5">
+                    <li className="nav-item text-center item-project">
                         <p role="button" className="nav-link border border-primary rounded-pill" id="html" onClick={onClick}>HTML / CSS</p>
                     </li>
-                    <li className="nav-item me-5">
+                    <li className="nav-item text-center item-project">
                         <p role="button" className="nav-link border border-primary rounded-pill" id="javascript" onClick={onClick}>JavaScript</p>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item text-center">
                         <p role="button" className="nav-link border border-primary rounded-pill" id="react" onClick={onClick}>React JS</p>
                     </li>
                 </ul>
@@ -49,11 +49,11 @@ const Projects = () => {
                                 <div className="card overflow-hidden shadow rounded-4 border-0 mb-5" key={projet.id + '-' + projet.name}>
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center project-item">
-                                            <div className="p-5 div-description-projet">
+                                            <div className="p-4 div-description-projet">
                                                 <h2 className="fw-bolder">{projet.name}</h2>
                                                 <p>{projet.info}</p>
                                                 <a href={projet.git} target="_blank" className="btn btn-info me-2">GitHub</a>
-                                                <a href={projet.source} target="_blank" className="btn btn-primary">Demo</a>
+                                                {projet.source && <a href={projet.source} target="_blank" className="btn btn-primary">Demo</a>}
                                             </div>
                                             <div className="div-img-project">
                                                 <img className="img-fluid img-project" src={projet.picture} alt={projet.name} />
