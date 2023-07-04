@@ -55,9 +55,7 @@ const Projects = () => {
                                                 <a href={projet.git} target="_blank" className="btn btn-info me-2">GitHub</a>
                                                 {projet.source && <a href={projet.source} target="_blank" className="btn btn-primary">Demo</a>}
                                             </div>
-                                            <div className="div-img-project">
-                                                <img className="img-fluid img-project" src={projet.picture} alt={projet.name} />
-                                            </div>
+                                            <img className="img-fluid img-project" src={projet.picture} alt={projet.name} />
                                         </div>
                                     </div>
                                 </div>

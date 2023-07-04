@@ -198,10 +198,15 @@ const Resume = () => {
                                             <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Analytics</div></div>
                                             <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Search Console</div></div>
                                         </div>
-                                        <div className="row row-cols-1 row-cols-md-3">
+                                        <div className="row row-cols-1 row-cols-md-3 mb-4">
                                             <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Figma</div></div>
                                             <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Canva</div></div>
                                             <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Postman</div></div>
+                                        </div>
+                                        <div className="row row-cols-1 row-cols-md-3">
+                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">VS Code</div></div>
+                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Git</div></div>
+                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Webpack</div></div>
                                         </div>
                                     </div>
                                     

@@ -54,6 +54,6 @@ export const portfolioData = [
     languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
     git: 'https://github.com/Karlito14/tvShowAdviser.git',
     info: 'Réalisation d\'une application de séries TV. La série la plus populaire du moment s\'affiche lors de l\'ouverture de l\'application. Puis la personne recherche la série souhaitée et des recommandations s\'affichent selon la série choisie.',
-    picture: '../../media/kasa.jpg'
+    picture: '../../media/tvShow.jpg'
   },
 ]
