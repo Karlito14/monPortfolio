@@ -119,6 +119,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+.h1-error{
+  font-size: 130px;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+
 .title{
   font-size: 0.8rem;
 }
