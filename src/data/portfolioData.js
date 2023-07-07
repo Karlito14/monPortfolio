@@ -44,6 +44,7 @@ export const portfolioData = [
     language: 'react',
     languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
     git: 'https://github.com/Karlito14/Kasa.git',
+    source: 'https://kasa-application.netlify.app/',
     info: 'Réalisation d\'un site de location immobilière en React. Initialiser une application avec Create React App, configurer la navigation entre les pages de l\'application avec React Router, développer des éléments de l\'interface d\'un site web grâce à des composants React.',
     picture: '../../media/kasa.jpg'
   },
@@ -52,6 +53,7 @@ export const portfolioData = [
     name: 'TV Show Adviser',
     language: 'react',
     languagesIcons: ['fa-brands fa-js', 'fa-brands fa-react', 'fa-brands fa-css3-alt'],
+    source : 'https://tv-show-adviser.netlify.app/',
     git: 'https://github.com/Karlito14/tvShowAdviser.git',
     info: 'Réalisation d\'une application de séries TV. La série la plus populaire du moment s\'affiche lors de l\'ouverture de l\'application. Puis la personne recherche la série souhaitée et des recommandations s\'affichent selon la série choisie.',
     picture: '../../media/tvShow.jpg'

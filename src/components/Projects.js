@@ -30,16 +30,16 @@ const Projects = () => {
                 </div>
                 <ul className="nav justify-content-center mb-3 list-project">
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="nav-link border border-primary rounded-pill" id="tous" onClick={onClick}>Tous</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill" id="tous" onClick={onClick}>Tous</p>
                     </li>
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="nav-link border border-primary rounded-pill" id="html" onClick={onClick}>HTML / CSS</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill" id="html" onClick={onClick}>HTML / CSS</p>
                     </li>
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="nav-link border border-primary rounded-pill" id="javascript" onClick={onClick}>JavaScript</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill" id="javascript" onClick={onClick}>JavaScript</p>
                     </li>
                     <li className="nav-item text-center">
-                        <p role="button" className="nav-link border border-primary rounded-pill" id="react" onClick={onClick}>React JS</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill" id="react" onClick={onClick}>React JS</p>
                     </li>
                 </ul>
                 <div className="row gx-5 justify-content-center">

@@ -34,7 +34,9 @@ const ContactSection = () => {
                                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Téléphone</h4>
                                 <hr className="my-4 mx-auto" />
-                                <div className="small text-black-50">+33 6 78 99 10 51 </div>
+                                <div className="small text-black-50 d-flex justify-content-center">
+                                    <img src="../media/france.png" alt="drapeau france" className="drapeau-france" /> <span>6 78 99 10 51 </span>
+                                </div>
                             </div>
                         </div>
                     </div>
