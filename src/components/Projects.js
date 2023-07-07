@@ -30,16 +30,16 @@ const Projects = () => {
                 </div>
                 <ul className="nav justify-content-center mb-3 list-project">
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="btn btn-outline-primary rounded-pill" id="tous" onClick={onClick}>Tous</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill w-100" id="tous" onClick={onClick}>Tous</p>
                     </li>
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="btn btn-outline-primary rounded-pill" id="html" onClick={onClick}>HTML / CSS</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill w-100" id="html" onClick={onClick}>HTML / CSS</p>
                     </li>
                     <li className="nav-item text-center item-project">
-                        <p role="button" className="btn btn-outline-primary rounded-pill" id="javascript" onClick={onClick}>JavaScript</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill w-100" id="javascript" onClick={onClick}>JavaScript</p>
                     </li>
                     <li className="nav-item text-center">
-                        <p role="button" className="btn btn-outline-primary rounded-pill" id="react" onClick={onClick}>React JS</p>
+                        <p role="button" className="btn btn-outline-primary rounded-pill w-100" id="react" onClick={onClick}>React JS</p>
                     </li>
                 </ul>
                 <div className="row gx-5 justify-content-center">
@@ -50,7 +50,10 @@ const Projects = () => {
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center project-item">
                                             <div className="p-4 div-description-projet">
-                                                <h2 className="fw-bolder">{projet.name}</h2>
+                                                <div className="d-flex justify-content-between align-items-center mb-2">
+                                                    <h2 className="fw-bolder">{projet.name}</h2>
+                                                    <i className={projet.languagesIcons + " text-gradient icone-language"}></i>
+                                                </div>
                                                 <p>{projet.info}</p>
                                                 <a href={projet.git} target="_blank" className="btn btn-info me-2">GitHub</a>
                                                 {projet.source && <a href={projet.source} target="_blank" className="btn btn-primary">Demo</a>}
