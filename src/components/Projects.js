@@ -52,7 +52,15 @@ const Projects = () => {
                                             <div className="p-4 div-description-projet">
                                                 <div className="d-flex justify-content-between align-items-center mb-2">
                                                     <h2 className="fw-bolder">{projet.name}</h2>
-                                                    <i className={projet.languagesIcons + " text-gradient icone-language"}></i>
+                                                    <div className="d-flex justify-content-between align-items-center">
+                                                    {
+                                                        projet.languagesIcons.map((languageIcons, index) => {
+                                                            return (
+                                                                    <i key={index-languageIcons} className={languageIcons + " text-gradient icone-language me-2"}></i>
+                                                            )
+                                                        })
+                                                    }
+                                                    </div>
                                                 </div>
                                                 <p>{projet.info}</p>
                                                 <a href={projet.git} target="_blank" className="btn btn-info me-2">GitHub</a>
