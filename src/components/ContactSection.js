@@ -5,7 +5,7 @@ const ContactSection = () => {
         <section className="contact-section mt-5 mb-5">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5">
-                <div className="text-center mb-5">
+                    <div className="text-center mb-5">
                         <h3 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Me joindre</span></h3>
                     </div>
                     <div className="col-md-4 mb-3 mb-md-0">
