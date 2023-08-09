@@ -56,4 +56,13 @@ export const portfolioData = [
     info: 'Réalisation d\'une application de séries TV. La série la plus populaire du moment s\'affiche lors de l\'ouverture de l\'application. Puis la personne recherche la série souhaitée et des recommandations s\'affichent selon la série choisie.',
     picture: '../../media/tvShow.jpg'
   },
+  {
+    id: 7,
+    name: 'Notes Manager',
+    language: 'react',
+    languagesIcons: ['fa-brands fa-react', "fa-brands fa-css3-alt"],
+    git: 'https://github.com/Karlito14/reactNotesManager.git',
+    info: 'Réalisation d\'une application de notes. Réalisé avec React et Redux afin de récupérer les props dont j\'ai besoin directement dans Redux.',
+    picture: '../../media/notesManager.jpg'
+  },
 ]

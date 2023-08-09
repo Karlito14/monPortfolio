@@ -56,7 +56,7 @@ const Projects = () => {
                                                     {
                                                         projet.languagesIcons.map((languageIcons, index) => {
                                                             return (
-                                                                    <i key={index-languageIcons} className={languageIcons + " text-gradient icone-language me-2"}></i>
+                                                                    <i key={index} className={languageIcons + " text-gradient icone-language me-2"}></i>
                                                             )
                                                         })
                                                     }
